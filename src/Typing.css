@@ -1,0 +1,22 @@
+.blinking-cursor {
+    font-weight: 700;
+    font-size: 20px;
+    color: #2E3D48;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @-webkit-keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.1; }
+    100% { opacity: 1.0; }
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.1; }
+    100% { opacity: 1.0; }
+  }
